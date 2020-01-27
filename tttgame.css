@@ -1,0 +1,96 @@
+body {
+  background-color: cornsilk;
+}
+
+header { 
+  text-align: center;
+}
+
+td {
+  font-family: 'Courgette', cursive;
+	text-align:  center;
+	vertical-align:  middle;
+  margin: 5em;
+	font-size:  4.5em;  
+  cursor: pointer;
+  border:  1px solid #FCA311;
+  color: #FCA311;
+  background-color: #14213D;
+  height:  2.2em;
+  width:  1.7em;
+  box-shadow: 0px 5px 7px 3px #FCA311;
+  border-radius: 4px;
+}
+
+table {
+	border-collapse: collapse;
+	margin-left: 35%;
+	margin-top: 50px;
+}
+
+table tr:first-child td {
+	border-top: 0;
+}
+
+table tr:last-child td {
+	border-bottom: 0;
+}
+
+table tr td:first-child {
+	border-left: 0;
+}
+
+table tr td:last-child {
+	border-right: 0;
+}
+
+.repeat {
+  padding: 1em 2em;
+  top: 2em;
+  position: relative;
+  margin-left: 41em;
+  border-radius: 40px;
+  font-family: 'Courgette', cursive;
+}
+
+.final-whistle {
+  display: none;
+  padding: 1.7em 2.5em;
+  top: 8.7em;
+  background-color: rgba(150, 105, 9, 0.8);
+  position: absolute;
+  left: 18.5em;
+  margin-left: -2.95em;
+  font-size: 2em;
+  text-align: center;
+  border-radius: 6px;
+  color: wheat;
+}
+
+@media (max-width: 768px){
+  .repeat {
+    padding: 0.5em 1.5em;
+    top: 2em;
+    position: relative;
+    margin-left: 7em;
+    border-radius: 20px;
+  }
+  table {
+    margin-left: 11%;
+  }
+
+  td {
+    font-size:  4.3em;  
+    height:  2em;
+    width:  1.4em;
+  }
+
+  .final-whistle {
+    top: 9em;
+    left: 5.5em;
+    margin-left: -2em;
+    padding: 1.5em 1.5em;
+    border-radius: 4px;
+    font-size: 1.7em;   
+  }
+}
